@@ -616,7 +616,7 @@ class PgAssistantGUI:
         
         title_label = tk.Label(
             settings_window, 
-            text="第四季SeasonVI", 
+            text="第四季SeasonIV", 
             font=("微软雅黑", 20, "bold"), 
             fg="#2c3e50"
         )
@@ -891,4 +891,5 @@ if __name__ == "__main__":
                     f.write("")
     root = tk.Tk()
     app = PgAssistantGUI(root)
+
     root.mainloop()
